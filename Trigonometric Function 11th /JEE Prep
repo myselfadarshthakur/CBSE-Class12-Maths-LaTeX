@@ -1,0 +1,121 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{JEE Trigonometry MCQ Paper}
+\lhead{2020–2025 Papers}
+\rfoot{Page \thepage}
+
+\setlist[enumerate]{label=\textbf{Q\arabic*.}}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+
+\begin{document}
+
+\begin{center}
+    \Large\textbf{JEE Trigonometry Practice Paper (2020–2025)} \\
+    \normalsize Total Questions: 25 \quad Time Allowed: 1 Hour \\
+    \textit{Topic: Trigonometry\quad| \quad No Solutions Included \quad| \quad Medium Difficulty}
+\end{center}
+
+\vspace{1em}
+
+\section*{Section A: JEE Main (15 Questions)}
+
+\begin{enumerate}
+
+\item If \( \theta \in \left(0, \frac{\pi}{2}\right) \) and \( \tan\theta + \cot\theta = 4 \), then find \( \tan^2\theta + \cot^2\theta \).  
+A) 14 \quad B) 16 \quad C) 18 \quad D) 20
+
+\item The general solution of \( \sin(3x) = \frac{1}{2} \) is:\\
+A) \( x = \frac{\pi}{18} + \frac{2n\pi}{3}, \frac{5\pi}{18} + \frac{2n\pi}{3} \) \\
+B) \( x = \frac{\pi}{6} + n\pi \) \\
+C) \( x = \frac{\pi}{3} + 2n\pi \) \\
+D) None of these
+
+\item If \( \sec A + \tan A = x \), where \( A \in \left(0, \frac{\pi}{2}\right) \), then \( \sec A = \frac{x^2 + 1}{2x} \). This identity is: \\
+A) Always true \quad B) Valid for specific x only \quad C) Always false \quad D) Depends on A
+
+\item The minimum value of \( \sin^4x + \cos^4x \) is: \\
+A) \( \frac{1}{2} \) \quad B) \( \frac{3}{4} \) \quad C) 0 \quad D) 1
+
+\item If \( \cot x = 7 \), then the value of \( \frac{\sin x \cos x}{\sin^2 x - \cos^2 x} \) is: \\
+A) \( \frac{7}{24} \) \quad B) \( \frac{24}{48} \) \quad C) \( -\frac{7}{24} \) \quad D) \( \frac{13}{48} \)
+
+\item General solution of the equation \( \tan x + \tan 2x + \tan 3x = 0 \) is: \\
+A) \( x = n\pi \) \quad B) \( x = \frac{n\pi}{2} \) \\
+C) \( x = \frac{\pi}{4} + n\pi \) \quad D) Cannot be determined
+
+\item If \( \frac{1 + \sin \theta}{1 - \sin \theta} = 9 \), where \( \theta \in (0, \frac{\pi}{2}) \), then \( \theta \) is: \\
+A) \( \frac{\pi}{6} \) \quad B) \( \frac{\pi}{4} \) \quad C) \( \frac{\pi}{3} \) \quad D) \( \frac{2\pi}{3} \)
+
+\item Value of \( \cos\left( \tan^{-1}\left(\frac{3}{4}\right) \right) \) is: \\
+A) \( \frac{4}{5} \) \quad B) \( \frac{3}{5} \) \quad C) \( \frac{5}{3} \) \quad D) None
+
+\item The minimum value of \( \sin x + \cos x \) is: \\
+A) \( -\sqrt{2} \) \quad B) 0 \quad C) -1 \quad D) \( -\frac{1}{\sqrt{2}} \)
+
+\item Which of the following expressions is equal to \( \tan \theta \)? \\
+A) \( \frac{\sin 2\theta}{1+\cos 2\theta} \) \quad B) \( \frac{\sin \theta}{\cos \theta} \) \\
+C) Both A and B \quad D) None of these
+
+\item If \( \sin A = \frac{3}{5} \), and \( A \) is acute, then \( \cos(2A) \) equals: \\
+A) \( \frac{7}{25} \) \quad B) \( \frac{1}{5} \) \quad C) \( \frac{7}{13} \) \quad D) \( \frac{1}{13} \)
+
+\item The range of function \( f(x) = 3 \sin x + 4 \cos x \) is: \\
+A) [–7, 7] \quad B) [–5, 5] \quad C) [–1, 1] \quad D) [–10, 10]
+
+\item The value of \( \tan^{-1}(\tan(5\pi/4)) \) is: \\
+A) \( \frac{\pi}{4} \) \quad B) \( -\frac{3\pi}{4} \) \quad C) \( \frac{5\pi}{4} \) \quad D) \( -\frac{\pi}{4} \)
+
+\item Solve: \( \sin x + \cos x = \sqrt{2} \) \\
+A) \( x = \frac{\pi}{4} + 2n\pi \) \quad B) \( x = \frac{3\pi}{4} + 2n\pi \) \\
+C) \( x = \frac{\pi}{2} + 2n\pi \) \quad D) All of the above
+
+\item If \( \sin(\alpha + \beta) = 1 \), \( \cos(\alpha - \beta) = 1 \), then: \\
+A) \( \alpha = \beta = \frac{\pi}{4} \) \quad B) \( \alpha = \frac{\pi}{4}, \beta = \frac{\pi}{4} \) \\
+C) \( \alpha = \beta \) \quad D) \( \alpha = \beta = \frac{\pi}{2} \)
+
+\end{enumerate}
+
+\section*{Section B: JEE Advanced (10 Questions)}
+
+\begin{enumerate}[start=16]
+
+\item Suppose \( \tan \theta + \cot \theta = k \). The minimum value of \( k \) is: \\
+A) 2 \quad B) \( \sqrt{2} \) \quad C) 4 \quad D) None
+
+\item Let \( \sin^2 A + \cos^4 A = \frac{5}{8} \). Find value of \( \sin A \cos A \): \\
+A) \( \frac{1}{4} \) \quad B) \( \frac{\sqrt{3}}{4} \) \quad C) \( \frac{1}{2} \) \quad D) \( \frac{3}{8} \)
+
+\item If \( \tan(\theta) = 2 \tan(\phi) \), and \( \theta + \phi = \frac{\pi}{2} \), then \( \sin(2\theta) \) is: \\
+A) \( \frac{8}{5} \) \quad B) \( \frac{4}{5} \) \quad C) \( \frac{2}{5} \) \quad D) \( \frac{3}{5} \)
+
+\item \( \sin \alpha + \sin \beta = a \), \( \cos \alpha + \cos \beta = b \), then \( \sin(\alpha + \beta) \) equals: \\
+A) \( ab \) \quad B) \( \frac{a^2 + b^2 - 2}{2} \) \quad C) \( ab + 1 \) \quad D) Cannot be determined
+
+\item If \( \cos x + \cos y = 1 \) and \( \sin x + \sin y = 1 \), then \( \cos(x - y) \) equals: \\
+A) 0 \quad B) 1 \quad C) –1 \quad D) \( \frac{1}{2} \)
+
+\item Value of \( \tan^{-1}\left( \frac{\tan x + \tan y}{1 - \tan x \tan y} \right) \), if \( x + y < \frac{\pi}{2} \): \\
+A) \( x + y \) \quad B) \( x - y \) \quad C) \( y - x \) \quad D) None
+
+\item If \( \sin 2A = \frac{24}{25} \), then \( \tan A \) is: \\
+A) \( \frac{4}{3} \) \quad B) \( \frac{3}{4} \) \quad C) 5 \quad D) \( \frac{7}{24} \)
+
+\item If \( \tan A + \tan B + \tan C = \tan A \tan B \tan C \), then \( A + B + C \) equals: \\
+A) \( \pi \) \quad B) \( \frac{\pi}{2} \) \quad C) \( \frac{3\pi}{2} \) \quad D) \( 2\pi \)
+
+\item Let \( x = a \sin \theta, y = b \cos \theta \). Then \( \frac{x^2}{a^2} + \frac{y^2}{b^2} = \): \\
+A) 1 \quad B) 0 \quad C) Depends on \( \theta \) \quad D) \( \frac{1}{2} \)
+
+\item If \( \alpha, \beta \in (0, \pi/2) \) and \( \sin \alpha + \sin \beta = \frac{3}{2} \), then maximum value of \( \cos(\alpha + \beta) \) is: \\
+A) \( \frac{1}{2} \) \quad B) \( \frac{\sqrt{3}}{2} \) \quad C) 1 \quad D) Not defined
+
+\end{enumerate}
+
+\end{document}
