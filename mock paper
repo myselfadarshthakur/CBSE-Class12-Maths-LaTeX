@@ -1,0 +1,94 @@
+\documentclass{article}
+\usepackage[a4paper, margin=0.7in]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\usepackage{tcolorbox}
+\newcommand{\q}{\textbf{Q}}
+\newcommand{\f}{\textbf{f(x)}}
+
+\begin{document}
+\begin{center}
+    \LARGE \textbf{LITTLE ANGEL SCHOOL, KICHHA} \\[0.5em]
+    \LARGE \textbf{Class $12^{th}$ – Mathematics} \\[0.25em]
+    \normalsize \textbf{UTNIT TEST 2} \\[1em]
+    \textbf{Time: 1 Hour} \hspace{3 cm} \textbf{Max Marks: 25} \\
+    \rule{\textwidth}{0.5 pt}  % horizontal line
+\end{center}
+\vspace{1 em}
+\begin{tcolorbox}[colframe=black, colback=white, boxrule=1pt, arc=3pt, width=\textwidth, left=5pt, right=5pt, top=5pt, bottom=5pt]
+\section*{Instructions}
+\begin{itemize}
+    \item All questions are compulsory.
+    \item Marks are mentioned against each question.
+    \item This paper is based on Chapters 4 (Determinants), 5 (Continuity and Differentiability), and 6 (Application of Derivatives) from the NCERT Class 12 Mathematics textbook.
+\end{itemize}
+\end{tcolorbox}
+\begin{center}
+\rule{\textwidth}{0.5 pt}  % horizontal line
+   \section*{Section A (1 Mark Each)} 
+\end{center}
+\q1. The value of
+$\begin{vmatrix}
+  2 & 3 & 4 \\
+  1 & 0 & 5 \\
+  7 & 6 & 1 \\
+\end{vmatrix}$ \\
+(A) 0 \hspace{1 cm}
+(B) 1 \hspace{1 cm}
+(C) \(\frac{1}{2}\) \hspace{1 cm}
+(D) Not defined \hfill [1]
+\vspace{1 em}\\
+\q2.If two rows of a determinant are interchanged, then the value of the determinant  \\
+A) Becomes zero \hspace{4.9 cm}
+B) Remains the same \hspace{2 cm}\\
+C) Becomes negative of the original \hspace{2 cm}
+D) Becomes double \hfill [1] \vspace{1 em}\\
+\q3.If y=sin$(x^2)$ then $\frac{dy}{dx}$ is \\
+A) cos($x^2$) \hspace{5.3 cm}
+B) 2x cos($x^2$)\\
+C) x cos($x^2$) \hspace{5 cm}
+D) 2x sin($x^2$) \hfill [1] \vspace{1 em}\\
+\q4.The condition for a function f(x) to have a \textbf{Maximum} at x= a is \\ 
+A) \quad $f'(a)=0$ and \quad$f''(a)>0$  \hspace{4.2 cm}
+B) f'(a)=0 and f''(a)\quad$<0$\\
+C) f'(a)\quad$<$0 and f''(a)=0 \hspace{5 cm}
+D) f'(a)\quad$>$0 and f''(a)=0 \hfill [1] \vspace{1 em} \\
+\q5. If y= $tan^{-1}(\frac{1}{x})$, then $\frac{dy}{dx}$ \\
+A) $\frac{1}{1+x^2}$ \hspace{5.5 cm}
+B) $-\frac{1}{1+x^2}$\\
+C) $-\frac{1}{1+\frac{1}{x^2}}\cdot\left(-\frac{1}{x^2}\right)$ \hspace{4 cm}
+D)$-\frac{1}{1+\frac{1}{x^2}}$ \hfill [1]
+\vspace{1 em}\\
+
+\begin{center}
+\item \section*{Section B(2 Marks Each)}
+\end{center}
+\q1. For what value of x \textbf{Matrix A} singular\\
+$$A= \begin{bmatrix}
+    x-1 &1 &1 \\1 &x-1 &1\\ 1 &1 &x-1
+\end{bmatrix}$$ \hfill [2]\vspace{1 em}\\
+\q2.If $e^{y-x}=y^x$, then prove that $\frac{dy}{dx}=\frac{y(1+logy)}{x\cdot logy}$ \hfill [2] \vspace{1 em}\\
+\q3.If y= tanX + secX, then prove that$\frac{d^2y}{dx^2}=\frac{cosX}{(1-sinX)^2}$ \hfill [2] \vspace{1 em} \\
+\q4.A man 1.6 m tall walks at the rate of 0.3 m/sec away from a street light that is 4 m above the ground. At what rate is the tip of his shadow moving? At what rate is his shadow lengthening? \hfill [2] \vspace{1 em} \\
+\q5.if A=
+$\begin{bmatrix}
+    2 &-1 \\ -1 &2
+\end{bmatrix} $ and I is the identity matrix of order 2, then show that 
+$A^2=4A-3I$. Hence find $A^{-1}$ \hfill [2]
+\begin{center} \vspace{1 em}
+    \item \section*{Section C (3 Marks Each)}
+\end{center}
+\q1.Determine the value of '\textbf{k}' for which the following function is continuous at x=3 \\
+\[ f(x)= \begin{cases}
+    \frac{(x+3)^2-36}{x-3} & x\ne 3\\ k &x=3
+\end{cases}\] \hfill [3] \\
+\q2.Show that the point
+A(a,b+c), B(b,c+a) and C(c,a+b) are collinear
+\begin{center} \hfill [3] \vspace{1 em}
+    \item \section*{Section D (4 Marks Each)}
+\end{center} 
+\q1. A square piece of tin of side 18 cm is to be made into a box without a top, by cutting a square from each corner and folding up the flaps to form the box. What should be the side of the square to be cut off so that the volume of the box is the
+maximum possible. \hfill [4]
+
+\end{document}
+
