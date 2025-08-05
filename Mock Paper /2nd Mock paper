@@ -1,0 +1,58 @@
+\documentclass{article}
+\usepackage[a4paper, margin=0.7in]{geometry}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx}
+\newcommand{\q}{\textbf{Q}}
+\newcommand{\s}{\vspace{1 em}}
+\newcommand{\h}{\hspace{5 cm}}
+\newcommand{\mcqfour}[4]{
+\begin{tabular}{@{}p{6cm}@{}p{6cm}@{}}
+(A) #1 & (B) #2 \\
+(C) #3 & (D) #4 \\
+\end{tabular}
+}
+\begin{document}
+\begin{center}
+    \LARGE \textbf{LITTLE ANGEL SCHOOL, KICHHA} \\[0.5em]
+    \LARGE \textbf{Class $12^{th}$ – Mathematics} \\[0.25em]
+    \normalsize \textbf{UTNIT TEST 2} \\[1em]
+    \textbf{Time: 1 Hour} \hspace{3 cm} \textbf{Max Marks: 25} \\
+    \rule{\textwidth}{0.5 pt}  % horizontal line
+\end{center}
+\vspace{1 em}
+\begin{center}
+   \section*{Section A (1 Mark Each)} 
+\end{center}
+\q1. The LCM of $6!$, $7!$, and $8!$ is \\ \mcqfour{$6!$}{$7!$ }{$8!$}{$6! \times 7! \times 8!$} \hfill[1] \s \\
+\q2. The solution of the inequation $|x-4| < 2$ is \\ \mcqfour{$2 < x < 6$}{$4 < x < 6$}{ $2 \leq x \leq 6$}{None of these} \hfill[1] \s\\
+\q3. The real part of $(2 - i)(1 + i)$ is \\ \mcqfour{1}{2}{3}{4} \hfill[1] \s\\
+\q4.  The number of odd three-digit numbers with no repeats is \\ \mcqfour{450}{495}{648}{900} \hfill[1] \s\\
+\q5.The number of ways 5 letters can be posted in 7 mailboxes is \\ \mcqfour{$7^5$}{$5^7$ }{$12$}{$35$} \hfill[1]
+%------------------sectin B--------------------------------
+\begin{center}
+    \item \section*{Section B (2 Marks Each)}
+\end{center}
+\q6. Evaluate $i^{53} + i^{105}$.\hfill[2] \s \\
+\q7. Find modulus and argument of the complex number $1 + \sqrt{3}i$.\hfill[2] \s\\
+\q8. Find the solution set of the inequality $|x-3| \leq 2$. \hfill[2]\s \\
+\q9. Calculate the number of 4-digit numbers greater than 7000 formed from digits $\{3,5,7,8,9\}$ with no repetition. \hfill[2]\s \\
+\q10. Find the number of arrangements of 5 books on Mathematics and 6 books on Physics if one of each type is selected. \hfill[2]
+%---------------section C--------------------------
+\begin{center}
+    \item \section*{Section C ( 3 Marks Each)}
+\end{center}
+\q11. If $^{2n}C_3 : ^nC_2 = 44 : 3$, find $n$. \hfill[3]\s \\
+\q12. Find all values of $x$ and $y$ such that $(x + i y)(2 + i)^2 = 10(1 + i)$.\hfill[3]
+%-----------------------Section D--------------------------
+\begin{center}
+  \item\section*{Section D ( 4 Marks Each)}  
+\end{center}
+\q13.Solve the system of linear inequations graphically:
+    \[
+    \begin{cases}
+    2x + 3y \leq 6, \\
+    3x + 2y \leq 6, \\
+    x \geq 0, \quad y \geq 0
+    \end{cases}
+    \] 
+\end{document}
