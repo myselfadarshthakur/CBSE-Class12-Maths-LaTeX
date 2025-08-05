@@ -1,0 +1,248 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{tikz, pgfplots}
+\usetikzlibrary{positioning}
+\usepackage{enumitem}
+\usepackage{draftwatermark}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\SetWatermarkText{
+  Adarsh\\ Thakur
+}
+\SetWatermarkScale{1.3}
+\SetWatermarkLightness{0.85}
+\SetWatermarkAngle{45}
+\begin{document}
+
+\begin{center}
+    \large \textbf{Permutations \& Combinations}\\
+    \normalsize ADARSH THAKUR
+\end{center}
+
+
+
+
+
+
+
+\section*{Multiple Choice Questions (1 mark each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)}]
+    \item There are four bus routes between $A$ and $B$, and three bus routes between $B$ and $C$. A man can travel round-trip in number of ways by bus from $A$ to $C$ via $B$. If he does not use a bus route more than once, in how many ways can he make a round trip?\\
+    a) 72\quad b) 144\quad c) 14\quad d) 19
+
+    \item The number of 6-digit numbers, all digits of which are odd is\\
+    a) 56\quad b) 55\quad c) 65\quad d) 66
+
+    \item There are three possible ways to go from place $A$ to place $B$ and two possible ways to go from place $B$ to place $C$. The possible ways to go from $A$ to $C$ are\\
+    a) 3\quad b) 2\quad c) 5\quad d) 6
+
+    \item The number of ways in which five articles can be put in four boxes is\\
+    a) 44\quad b) 54\quad c) 45\quad d) 55
+\end{enumerate}
+
+\section*{Very Short Answer Type Questions (2 marks each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item Ten students compete in a race, in how many ways can the first three places be taken?
+
+    \item In a cinema there are four entrances and three exit doors. In how many ways can a person enter the hall and then come out?
+
+    \item How many arithmetic progressions with 10 terms are there whose first term belongs to $\{2, 3, 4\}$ and common difference to $\{5, 6, 7, 8\}$?
+\end{enumerate}
+
+\section*{Short Answer Type Questions (3 marks each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item How many numbers are there between 100 and 1000 such that at least one of their digits is 5?
+
+    \item In how many ways 4 prizes can be distributed among 5 girls, when\\
+    (i) no girl gets more than one prize\\
+    (ii) a girl may get any number of prizes\\
+    (iii) no girl gets all the prizes
+
+    \item How many numbers are there between 100 and 1000 such that at least one of the digits is 6?
+
+    \item Daily 6 students line up to go to school. Assuming that all the six students go to school without any leave and every time arrangements are different and school works for 180 days in a year. After how much time will the same line up pattern be formed?
+\end{enumerate}
+
+\section*{Fundamental Principle of Counting}
+
+If an event can occur in $m$ different ways and, following it, a second event can occur in $n$ different ways, then these two events in succession can occur in $mn$ different ways.
+
+\subsection*{Factorial Notation}
+The continued product of the first $n$ natural numbers is called factorial $n$ or $n$ factorial and is denoted by $n!$.
+\[
+n! = 1 \cdot 2 \cdot 3 \cdot \ldots \cdot (n-1) \cdot n
+\]
+
+\section*{Permutations \& Combinations}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item If $8! = \lambda \cdot 5!$ then $\lambda$ is?\\
+    a) 8\quad b) 56\quad c) 40\quad d) 336
+
+    \item Find \(\dfrac{n!}{r!(n - r)!}\), when $r=3$.
+
+    \item Find $n$ if
+    \[
+        \frac{(2n)!}{5!(2n-3)!} : \frac{n!}{4!(n-2)!} = 52 : 5
+    \]
+
+    \item Prove for $n \in \mathbb{N}$, \((2n)! = 2^n \cdot n! \cdot [1 \cdot 3 \cdot 5 \cdots (2n-1)]\).
+
+    \item Find $n$ if \(\dfrac{(n+1)!}{(n-1)!} = 6\).
+\end{enumerate}
+
+\section*{Multiple Choice Questions (1 mark each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item The number of 5-digit telephone numbers having at least one of their digits repeated is:\\
+    a) 90000\quad b) 10000\quad c) 30240\quad d) 69760
+
+    \item The number of signals that can be sent by 6 flags of different colours taking one or more at a time is\\
+    a) 63\quad b) 1956\quad c) 720\quad d) 21
+
+    \item The number of different four-digit numbers that can be formed with the digits 2,3,4,7 and using each digit only once is\\
+    a) 12\quad b) 96\quad c) 24\quad d) 100
+\end{enumerate}
+
+\section*{Very Short Answer Type Questions (2 marks each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item Find the number of ways in which the letters of the word `APPLE' and `AGAIN' can be arranged.
+
+    \item Find $r$ if $8P_r = 336$.
+
+    \item If $56P_{r+6} : 54P_{r+3} = 30800 : 1$, find $r$.
+\end{enumerate}
+
+\section*{Short Answer Type Questions (3 marks each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item Find the rank of `FATHER' if the letters of the word are arranged alphabetically as in a dictionary.
+
+    \item Find $n$, if $nP_4 : nP_5 = 1 : 2$.
+
+    \item Find $r$, if $20P_r = 13 \cdot 20P_{r-1}$.
+\end{enumerate}
+
+\section*{Long Answer Type Questions (5 marks each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item In how many ways can 7 examination papers be arranged so that the so-called easiest and the most difficult are never together?
+
+    \item There are 3 white, 4 red and 1 blue marbles in a bag. They are drawn one by one and arranged in a row. Assuming that all the 8 marbles are drawn, determine the number of different arrangements, if marbles of same colour are indistinguishable.
+
+    \item In an examination hall there are four rows of chairs. Each row has 8 chairs. There are two classes with 16 students each. In each row all students belong to the same class and no two adjacent rows are allotted to the same class. In how many ways can these 32 students be seated?
+
+    \item How many different numbers of 6-digit (without repetition) can be formed from the digits 3, 1, 7, 0, 9, 5?\\
+        (i) How many of them will have 0 in the unit’s place\\
+        (ii) How many are divisible by 5\\
+        (iii) How many are not divisible by 5
+
+    \item Three married couples are to be seated in a row having six seats in a cinema hall. If spouses are to be seated next to each other, in how many ways can they be seated? Find also the number of ways of their seating if all the ladies sit together.
+\end{enumerate}
+
+\section*{Multiple Choice Questions (1 mark each)}
+
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item If $nC_{12} = nC_8$, then $n$ is equal to\\
+    a) 20\quad b) 12\quad c) 6\quad d) 30
+
+    \item The number of parallelograms that can be formed from a set of four parallel lines intersecting another set of three parallel lines is\\
+    a) 6\quad b) 18\quad c) 12\quad d) 9
+
+    \item $15C_8 + 15C_9 - 15C_6 - 15C_7$ is equal to\\
+    a) $15C_4$ \hfill b) $15C_1 + 15C_3$ \hfill c) 0 \hfill d) $2 \cdot 15C_2$
+
+    \item The number of ways in which $4n$ students can be distributed equally among 4 sections is given by\\
+    a) $\dfrac{(4n)!}{n!}$ \\
+    b) $\dfrac{(4n)!}{4!n!}$\\
+    c) $\dfrac{(4n)!}{(n!)^4}$ \\
+    d) $\dfrac{(4n)!}{4(n!)^4}$
+\end{enumerate}
+
+\section*{Very Short Answer Type Questions (2 marks each)}
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item Find $r$, if $15C_{3r} = 15C_{r+3}$.
+
+    \item Prove that $2nC_n = \dfrac{2^n \cdot [1 \cdot 3 \cdot 5 \cdots (2n-1)]}{n!}$.
+\end{enumerate}
+
+\section*{Short Answer Type Questions (3 marks each)}
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item There are $n$ points on a circle, find the number of\\
+    (i) triangles which can be formed\\
+    (ii) lines which can be formed
+\end{enumerate}
+
+\section*{Combinations}
+
+A combination is a grouping or selection of different objects taken some or all at a time. $nCr$ represents the total combinations of $n$ different objects taken $r$ $(r \leq n)$ at a time.
+
+Total combinations of $n$ different objects taken $r$ at a time is:
+\[
+nCr = \frac{n!}{r!(n-r)!}
+\]
+
+Also,
+\[
+nC_0 = 1 = nC_n \qquad nC_1 = n = nC_{n-1} \qquad nC_2 = \frac{n(n-1)}{2} = nC_{n-2}
+\]
+\[
+nCr = nC_{n-r},\qquad nCp = nCq \implies p=q \text{ or } p+q = n
+\]
+\[
+nCr + nC_{r+1} = n+1Cr
+\]
+
+\section*{Short/Long Answer Type Questions (continued)}
+\begin{enumerate}[label=\textbf{Q.\arabic*)},resume]
+    \item Find the number of sides of a polygon having 27 diagonals.
+
+    \item If $m$ parallel lines are intersected by a family of $n$ parallel lines, find the number of parallelograms formed.
+
+    \item In a small village, there are 87 families, of which 52 families have at most 2 children. In a Rural Development Program, 20 families are to be chosen for assistance, of which at least 18 families must have at most 2 children. In how many ways can the choice be made?
+
+    \item If $nPr = 336$, $nCr = 56$, find $n$ and $r$ and hence find $n-1C_{r-1}$.
+
+    \item A committee of 8 students is to be selected from 8 boys and 6 girls. In how many ways this can be done if each group is to consist of at least 3 boys and 3 girls?
+
+    \item A boy has 3 library tickets and 8 books of his interest in the library. Of these 8, he does not want to borrow Mathematics Part II, unless Mathematics Part I is also borrowed. In how many ways can he choose the three books to be borrowed.
+
+    \item There are 15 points in a plane of which 6 are collinear. How many (i) straight lines, (ii) triangles, can be formed by joining them.
+\end{enumerate}
+
+\vspace{1em}
+\section*{Answers}
+
+\begin{small}
+\begin{tabular}{rl|rl}
+1) & 72 & 23) & 261\\
+2) & 56 & 24) & $n=6$\\
+3) & 6 & 25) & $r=8$\\
+4) & 45 & 26) & 3600\\
+5) & 720 & 27) & 280\\
+6) & 12 & 28) & $2\cdot (16!)^2$\\
+7) & 12 & 29) & 600; 120; 216; 384\\
+8) & 251 & 30) & 144\\
+9) & (i) 120\quad (ii) 625\quad (iii) 620 & 31) & 20\\
+10) & 25 & 32) & 18\\
+11) & 4 years & 33) & 0\\
+12) & 336 & 34) & $\dfrac{(4n)!}{(n!)^4}$ \\
+13) & $\dfrac{n(n-1)(n-2)}{6}$ & 35) & $r=3$\\
+14) & $n=7$ & 36) & See ques.\\
+16) & $n=2$ & 37) & $nC_3$, $nC_2$\\
+17) & 69760 & 38) & $n=9$\\
+18) & 1956 & 39) & $\dfrac{mn(m-1)(n-1)}{4}$ \\
+19) & 24 & 40) & $\binom{52}{18}\binom{35}{2} + \binom{52}{19}\binom{35}{1} + \binom{52}{20}\binom{35}{0}$\\
+20) & 60; 60 & 41) & 21\\
+21) & $r=3$ & 42) & 2506\\
+22) & 41 & 43) & 41\\
+& & 44) & 91; 435\\
+\end{tabular}
+\end{small}
+
+\end{document}
