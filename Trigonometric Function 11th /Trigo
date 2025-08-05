@@ -1,0 +1,143 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{draftwatermark}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.6em}
+\SetWatermarkText{
+  Adarsh\\ Thakur
+}
+\SetWatermarkScale{1.3}
+\SetWatermarkLightness{0.85}
+\SetWatermarkAngle{45}
+\begin{document}
+
+\begin{center}
+    \Large \textbf{Trigonometric Worksheet}\\
+    \normalsize Adarsh Thakur 
+\end{center}
+ \rule{\textwidth}{0.5 pt}
+
+\textbf{Multiple Choice Questions (1 mark each)}
+
+\begin{enumerate}
+    \item If $\tan \theta = \frac{1}{2}$ and $\tan \phi = \frac{1}{3}$, then the value of $\theta + \phi$ is\\
+    a) $\frac{\pi}{6}$\hspace{1cm}
+    b) $\pi$\hspace{1cm}
+    c) $0$\hspace{1cm}
+    d) $\frac{\pi}{4}$
+
+    \item The value of $\dfrac{1-\tan^2 15^\circ}{1+\tan^2 15^\circ}$ is\\
+    a) $1$\hspace{1cm}
+    b) $\sqrt{3}$\hspace{1cm}
+    c) $\frac{\sqrt{3}}{2}$\hspace{1cm}
+    d) $2$
+
+    \item The value of $\sin(45^\circ + \theta) - \cos(45^\circ - \theta)$ is\\
+    a) $2\cos\theta$\hspace{1cm}
+    b) $2\sin\theta$\hspace{1cm}
+    c) $1$\hspace{1cm}
+    d) $0$
+
+    \item If $\tan A = \frac{1}{2}$ and $\tan B = \frac{1}{3}$, then $\tan(2A+B)$ is equal to\\
+    a) $1$\hspace{1cm}
+    b) $2$\hspace{1cm}
+    c) $3$\hspace{1cm}
+    d) $4$
+
+    \item $\cos\left(\frac{\pi}{4} - x\right)\cos\left(\frac{\pi}{4} - y\right) - \sin\left(\frac{\pi}{4} - x\right)\sin\left(\frac{\pi}{4} - y\right)$\\
+    a) $\sin(x-y)$\hspace{1cm}
+    b) $\cos(x+y)$\hspace{1cm}
+    c) $\cos(x-y)$\hspace{1cm}
+    d) $\sin(x+y)$
+\end{enumerate}
+
+\textbf{Very Short Answer Type Questions (2 marks each)}
+
+\begin{enumerate}
+    \setcounter{enumi}{5}
+    \item The value of $\tan\frac{13\pi}{12}$ is \underline{\hspace{4cm}}
+    \item Find the value of $\sin 15^\circ$ \underline{\hspace{4cm}}
+    \item Express as sum or difference, $2\sin 5\theta \sin 3\theta$
+    \item Express $\cos 31^\circ - \cos 71^\circ$ as a product.
+    \item Find the value of: \\
+    $\cos 25^\circ35^\prime \cos 34^\circ25^\prime - \sin 25^\circ35^\prime \sin 34^\circ25^\prime$
+    \item Find the value of 
+    $\dfrac{\tan 69^\circ + \tan 66^\circ}{1 - \tan 69^\circ \tan 66^\circ}$
+    \item Prove that:\\
+    $\sin((n+1)x)\sin((n+2)x) + \cos((n+1)x)\cos((n+2)x) = \cos x$
+    \item Write the value of $\sin 75^\circ$
+    \item Write the value of $\tan\frac{\pi}{8}$
+    \item If $\tan(A+B) = m$ and $\tan(A-B) = n$, show that 
+    $\tan 2B = \frac{m-n}{1+mn}$
+    \item Prove that:\\
+    $\sin^2\left(\frac{\pi}{8} + \frac{A}{2}\right) - \sin^2\left(\frac{\pi}{8} - \frac{A}{2}\right) = \frac{1}{\sqrt{2}}\sin A$
+\end{enumerate} \vspace{1 cm}
+
+\textbf{Short Answer Type Questions (3 marks each)}
+
+\begin{enumerate}
+    \setcounter{enumi}{16}
+    \item Find the maximum and minimum value of $7\cos x + 24\sin x$
+
+    \item If $\sin x = \frac{3}{5}$, $\cos y = -\frac{12}{13}$ and $x$, $y$ both lie in the second quadrant, find the values of:\\
+    (i) $\sin(x + y)$ \qquad (ii) $\cos(x - y)$ \qquad (iii) $\tan(x + y)$
+
+    \item Show that $\sin\alpha + \sin(\alpha + \frac{2\pi}{3}) + \sin(\alpha + \frac{4\pi}{3}) = 0$
+
+    \item Prove that:\\
+    $\dfrac{\sin 3x + \sin 5x + \sin 7x + \sin 9x}{\cos 3x + \cos 5x + \cos 7x + \cos 9x} = \tan 6x$
+
+    \item If $\sin\alpha = k\sin\beta$, prove that\\
+    $\tan\left(\frac{\alpha - \beta}{2}\right) = \frac{k-1}{k+1}\tan\left(\frac{\alpha + \beta}{2}\right)$
+
+    \item Prove that $\sqrt{2 + \sqrt{2 + 2\cos 4x}} = 2\cos x$, for $0 < x < \frac{\pi}{4}$
+
+    \item Prove that\\
+    $\cos 20^\circ \cos 40^\circ \cos 60^\circ \cos 80^\circ = \frac{1}{16}$
+
+    \item If $\sin A + \sin B + \sin C = 0$, show that\\
+    $\sin 3A + \sin 3B + \sin 3C + 12\sin A \sin B \sin C = 0$
+
+    \item If $\tan A=k$, show that\\
+    $\sin(A+B) = \left(\frac{k+1}{k-1}\right) \sin(A-B)$
+\end{enumerate}
+
+\textbf{Long Answer Type Questions (5 marks each)}
+
+\begin{enumerate}
+    \setcounter{enumi}{26}
+    \item Prove that:\\
+    $\cos^2\frac{\pi}{8} + \cos^2\frac{3\pi}{8} + \cos^2\frac{5\pi}{8} + \cos^2\frac{7\pi}{8} = 2$
+
+    \item Prove that:\\
+    $\sin 5A = 5\sin A - 20\sin^3 A + 16\sin^5 A$
+
+    \item If $\tan\beta = \frac{n\sin\alpha\cos\alpha}{1 - n\sin^2\alpha}$, show that\\
+    $\tan(\alpha - \beta) = (1-n)\tan\alpha$
+
+    \item Find the value of $\sin 18^\circ, \sin 36^\circ, \sin 54^\circ$
+\end{enumerate}
+
+\textbf{Answers:}
+\begin{enumerate}
+    \item[1)] $\frac{\pi}{4}$
+    \item[2)] $\frac{\sqrt{3}}{2}$
+    \item[3)] $0$
+    \item[4)] $3$
+    \item[5)] $\sin(x+y)$
+    \item[6)] $2-\sqrt{3}$
+    \item[7)] $\frac{\sqrt{6} - \sqrt{2}}{4}$
+    \item[8)] $\cos 2\theta - \cos 8\theta$
+    \item[9)] $2\sin51^\circ \sin 20^\circ$
+    \item[10)] $\frac{1}{2}$
+    \item[11)] $-1$
+    \item[13)] $\frac{\sqrt{2} + \sqrt{6}}{4}$
+    \item[14)] $\sqrt{2} - 1$
+    \item[17)] Min: $-25$, Max: $25$
+    \item[18)] (i) $-\frac{56}{65}$, (ii) $\frac{63}{65}$, (iii) $-\frac{56}{33}$
+    \item[30)] $\sin 18^\circ = \frac{-1+\sqrt{5}}{4}$, \\ $\sin 36^\circ = \frac{\sqrt{10}-2\sqrt{5}}{4}$, \\ $\sin 54^\circ = \frac{\sqrt{5}+1}{4}$
+\end{enumerate}
+
+\end{document}
+
